@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by Cvpcb (2015-03-09 BZR 5487)-product   date = Tue 10 Mar 2015 11:12:20 PM PDT
+
+BeginCmp
+TimeStamp = /55018676;
+Reference = C1;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L13_P3.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /550185B4;
+Reference = C2;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L13_P3.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /55018530;
+Reference = C3;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L13_P3.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /55018F5D;
+Reference = C4;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L13_P3.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /55017D4A;
+Reference = C5;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L13_P3.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /550183E8;
+Reference = C6;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L21_P3.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /55018466;
+Reference = C7;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L21_P3.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /55015D77;
+Reference = P1;
+ValeurCmp = CONN_01X06;
+IdModule  = Connect:bornier6;
+EndCmp
+
+BeginCmp
+TimeStamp = /55016A0E;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = Connect:AK300-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5500336A;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55004B42;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55003434;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55004D2A;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FFC62D;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Trimmer-Piher_PT15-B_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FFE91E;
+Reference = RV2;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Trimmer-Piher_PT15-B_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FFEFA4;
+Reference = RV3;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Trimmer-Piher_PT15-B_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FFE60B;
+Reference = RV4;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Trimmer-Piher_PT15-B_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FFE93A;
+Reference = RV5;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Trimmer-Piher_PT15-B_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FFEFC0;
+Reference = RV6;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Trimmer-Piher_PT15-B_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FFE605;
+Reference = U1;
+ValeurCmp = 74HC14;
+IdModule  = Sockets_DIP:DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /55002CC8;
+Reference = U2;
+ValeurCmp = OP275;
+IdModule  = Sockets_DIP:DIP-8__300_ELL;
+EndCmp
+
+EndListe
