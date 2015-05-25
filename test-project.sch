@@ -195,14 +195,14 @@ Wire Wire Line
 Wire Wire Line
 	6100 1550 6650 1550
 $Comp
-L CONN_01X06 P1
+L CONN_01X06 Pout
 U 1 1 55015D77
-P 750 4700
-F 0 "P1" H 750 5050 50  0000 C CNN
-F 1 "CONN_01X06" V 850 4700 50  0000 C CNN
-F 2 "Connect:bornier6" H 750 4700 60  0001 C CNN
-F 3 "" H 750 4700 60  0000 C CNN
-	1    750  4700
+P 1250 4700
+F 0 "Pout" H 1250 5050 50  0000 C CNN
+F 1 "CONN_01X06" V 1350 4700 50  0000 C CNN
+F 2 "Connect:bornier6" H 1250 4700 60  0001 C CNN
+F 3 "" H 1250 4700 60  0000 C CNN
+	1    1250 4700
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -445,17 +445,17 @@ F 3 "" H 2150 2450 60  0000 C CNN
 	1    2150 2450
 	0    1    1    0   
 $EndComp
-Text Label 1100 4950 0    60   Italic 12
+Text Label 1600 4950 0    60   Italic 12
 OSC1
-Text Label 1100 4850 0    60   Italic 12
+Text Label 1600 4850 0    60   Italic 12
 OSC2
-Text Label 1100 4750 0    60   Italic 12
+Text Label 1600 4750 0    60   Italic 12
 OSC3
-Text Label 1100 4650 0    60   Italic 12
+Text Label 1600 4650 0    60   Italic 12
 OSC4
-Text Label 1100 4550 0    60   Italic 12
+Text Label 1600 4550 0    60   Italic 12
 OSC5
-Text Label 1100 4450 0    60   Italic 12
+Text Label 1600 4450 0    60   Italic 12
 OSC6
 $Comp
 L GND #PWR18
@@ -1199,17 +1199,17 @@ Wire Wire Line
 Wire Wire Line
 	6900 1750 7100 1750
 Wire Wire Line
-	950  4450 1350 4450
+	1450 4450 1850 4450
 Wire Wire Line
-	950  4550 1350 4550
+	1450 4550 1850 4550
 Wire Wire Line
-	950  4650 1350 4650
+	1450 4650 1850 4650
 Wire Wire Line
-	950  4750 1350 4750
+	1450 4750 1850 4750
 Wire Wire Line
-	950  4850 1350 4850
+	1450 4850 1850 4850
 Wire Wire Line
-	950  4950 1350 4950
+	1450 4950 1850 4950
 Wire Wire Line
 	900  1050 1100 1050
 Wire Wire Line
@@ -1243,19 +1243,7 @@ Connection ~ 2450 950
 Connection ~ 2450 2450
 Connection ~ 4300 950 
 Wire Wire Line
-	2450 3600 2450 3650
-Wire Wire Line
-	4300 2100 4300 2200
-Wire Wire Line
 	6100 1550 6650 1550
-Wire Wire Line
-	2450 2150 2450 2100
-Wire Wire Line
-	4300 3600 4300 3650
-Wire Wire Line
-	2450 5000 2450 5100
-Wire Wire Line
-	4300 5000 4300 5100
 Wire Wire Line
 	1050 2050 1050 2150
 Wire Wire Line
@@ -1342,4 +1330,39 @@ F 3 "" H 4650 4600 60  0000 C CNN
 	1    4650 4600
 	-1   0    0    -1  
 $EndComp
+$Comp
+L CONN_01X06 Pin
+U 1 1 5562A256
+P 1250 3700
+F 0 "Pin" H 1250 4050 50  0000 C CNN
+F 1 "CONN_01X06" V 1350 3700 50  0000 C CNN
+F 2 "Connect:bornier6" H 1250 3700 60  0001 C CNN
+F 3 "" H 1250 3700 60  0000 C CNN
+	1    1250 3700
+	-1   0    0    1   
+$EndComp
+Text Label 2950 950  0    60   ~ 0
+IN1
+Text Label 3800 950  0    60   ~ 0
+IN4
+Text Label 2950 2450 0    60   ~ 0
+IN2
+Text Label 3800 2450 0    60   ~ 0
+IN5
+Text Label 3800 3850 0    60   ~ 0
+IN6
+Text Label 2950 3850 0    60   ~ 0
+IN3
+Text Label 1450 3950 0    60   ~ 0
+IN1
+Text Label 1450 3850 0    60   ~ 0
+IN2
+Text Label 1450 3750 0    60   ~ 0
+IN3
+Text Label 1450 3650 0    60   ~ 0
+IN4
+Text Label 1450 3550 0    60   ~ 0
+IN5
+Text Label 1450 3450 0    60   ~ 0
+IN6
 $EndSCHEMATC
